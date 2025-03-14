@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "willow",
-  "name": "Tech Buddy Starter Kit",
+  "theme": "mint",
+  "name": "DevAI Starter Kit",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
@@ -15,7 +15,7 @@
         "groups": [
           {
             "group": "Get Started",
-            "pages": ["introduction", "quickstart", "development"]
+            "pages": ["userguide", "introduction", "quickstart", "development"]
           },
           {
             "group": "Essentials",
@@ -52,32 +52,32 @@
     "global": {
       "anchors": [
         {
+          "anchor": "Website",
+          "href": "https://dev-ai.com/",
+          "icon": "newspaper"
+        },
+        {
           "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
+          "href": "https://github.com/DevAI-ENG",
           "icon": "book-open-cover"
         },
         {
           "anchor": "Community",
           "href": "https://mintlify.com/community",
           "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
         }
       ]
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/devai_light.svg",
+    "dark": "/logo/devai_dark.svg"
   },
   "navbar": {
     "links": [
       {
         "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "href": "mailto:help@dev-ai.com"
       }
     ],
     "primary": {
